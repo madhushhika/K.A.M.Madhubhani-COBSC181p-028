@@ -63,7 +63,7 @@
                                         </state>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.88416838645935059" green="0.95704609155654907" blue="0.96569448709487915" alpha="0.21650256849315069" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.88416838645935059" green="0.95704609155654907" blue="0.96569448709487915" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.020380286499857903" green="0.61575895547866821" blue="0.98122483491897583" alpha="0.708015839041096" colorSpace="custom" customColorSpace="sRGB"/>
