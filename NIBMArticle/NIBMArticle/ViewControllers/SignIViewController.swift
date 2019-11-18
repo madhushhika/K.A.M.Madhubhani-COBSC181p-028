@@ -6,4 +6,20 @@
 //  Copyright © 2019 NIBM. All rights reserved.
 //
 
-import Foundation
+
+import UIKit
+import Firebase
+
+class SignInViewController: UIViewController {
+    
+    
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var login: UIButton!
+    
+    
+    
+    
+    
+    
+}
