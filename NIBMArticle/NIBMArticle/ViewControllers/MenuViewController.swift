@@ -2,7 +2,7 @@
 //  MenuViewController.swift
 //  NIBMArticle
 //
-//  Created by MacBook on 11/15/19.
+//  Created by Madhushika on 11/15/19.
 //  Copyright © 2019 NIBM. All rights reserved.
 //
 

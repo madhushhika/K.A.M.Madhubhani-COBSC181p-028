@@ -1,10 +1,7 @@
-//
 //  ViewController.swift
-//  NIBMArticle
-//
-//  Created by MacBook on 11/13/19.
+//  Created by Madhushika on 11/13/19.
 //  Copyright © 2019 NIBM. All rights reserved.
-//
+
 
 import UIKit
 
