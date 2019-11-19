@@ -51,7 +51,7 @@
                         </sections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="Ksi-Z1-EQB">
-                        <barButtonItem key="leftBarButtonItem" title="Menu" id="fcY-8J-0eL">
+                        <barButtonItem key="leftBarButtonItem" title="Menu" image="Menubar" id="fcY-8J-0eL">
                             <connections>
                                 <segue destination="71I-hw-NXj" kind="show" id="Jwm-PK-7f5"/>
                             </connections>
@@ -117,7 +117,7 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="127" id="3XP-kk-njS">
                                         <rect key="frame" x="0.0" y="198" width="414" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3XP-kk-njS" id="Has-4d-gCT">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3XP-kk-njS" id="Has-4d-gCT">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="127"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -160,7 +160,7 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="127" id="w03-3v-bb0" userLabel="EditPost Table View Cell">
                                         <rect key="frame" x="0.0" y="361" width="414" height="127"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w03-3v-bb0" id="fA9-YA-Vxd">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w03-3v-bb0" id="fA9-YA-Vxd">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="127"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -480,6 +480,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Menubar" width="512" height="512"/>
         <image name="Profile" width="512" height="512"/>
         <image name="createPost" width="512" height="512"/>
         <image name="editPost" width="512" height="512"/>
