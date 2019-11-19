@@ -12,13 +12,13 @@ struct Article:Codable  {
     var publisherName:String!
     var title : String!
     var description : String!
-    var postedImage :String!
+  
     
     init(title: String, description: String, addedTime: Date ,postImage:String,publisherName:String) {
         self.publisherName=publisherName
         self.title = title
         self.description = description
-        self.postedImage = postedImage
+       
         
     }
 }

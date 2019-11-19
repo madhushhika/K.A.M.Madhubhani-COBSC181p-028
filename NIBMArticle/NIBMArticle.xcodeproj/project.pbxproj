@@ -16,7 +16,8 @@
 		FA238781237EF24D00F4A60C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA238780237EF24D00F4A60C /* MenuViewController.swift */; };
 		FA31ACF22382F2BE00BA28D7 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31ACF12382F2BE00BA28D7 /* StudentModel.swift */; };
 		FA31ACF42382F2F400BA28D7 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31ACF32382F2F400BA28D7 /* ArticleModel.swift */; };
-		FA31ACF62382F52400BA28D7 /* SignIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31ACF52382F52400BA28D7 /* SignIViewController.swift */; };
+		FAD8CB1023842B3F008BCB89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAD8CB0F23842B3F008BCB89 /* GoogleService-Info.plist */; };
+		FAD8CB13238433AF008BCB89 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8CB12238433AF008BCB89 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA23870C237C32DD00F4A60C /* NIBMArticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NIBMArticle.app; path = "/Users/macbook/Desktop/COBSCComp181p_028/NIBMArticle/build/Debug-iphoneos/NIBMArticle.app"; sourceTree = "<absolute>"; };
 		FA23870F237C32DD00F4A60C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA238711237C32DD00F4A60C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA238714237C32DD00F4A60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA238716237C32DF00F4A60C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA238719237C32DF00F4A60C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA23871B237C32DF00F4A60C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA238720237C32E000F4A60C /* NIBMArticleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NIBMArticleTests.xctest; path = "/Users/macbook/Desktop/COBSCComp181p_028/NIBMArticle/build/Debug-iphoneos/NIBMArticleTests.xctest"; sourceTree = "<absolute>"; };
-		FA23872B237C32E000F4A60C /* NIBMArticleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NIBMArticleUITests.xctest; path = "/Users/macbook/Desktop/COBSCComp181p_028/NIBMArticle/build/Debug-iphoneos/NIBMArticleUITests.xctest"; sourceTree = "<absolute>"; };
 		FA238744237C7BF000F4A60C /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		FA238780237EF24D00F4A60C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		FA31ACF12382F2BE00BA28D7 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		FA31ACF32382F2F400BA28D7 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
-		FA31ACF52382F52400BA28D7 /* SignIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIViewController.swift; sourceTree = "<group>"; };
+		FAD8CB0823842288008BCB89 /* NIBMArticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBMArticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD8CB0A23842288008BCB89 /* NIBMArticleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIBMArticleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD8CB0F23842B3F008BCB89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAD8CB1123842C12008BCB89 /* NIBMArticleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIBMArticleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD8CB12238433AF008BCB89 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				FA23870E237C32DD00F4A60C /* NIBMArticle */,
+				FAD8CB0823842288008BCB89 /* NIBMArticle.app */,
+				FAD8CB0A23842288008BCB89 /* NIBMArticleUITests.xctest */,
+				FAD8CB1123842C12008BCB89 /* NIBMArticleTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +101,7 @@
 				FA238716237C32DF00F4A60C /* Assets.xcassets */,
 				FA238718237C32DF00F4A60C /* LaunchScreen.storyboard */,
 				FA23871B237C32DF00F4A60C /* Info.plist */,
+				FAD8CB0F23842B3F008BCB89 /* GoogleService-Info.plist */,
 			);
 			path = NIBMArticle;
 			sourceTree = "<group>";
@@ -113,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				FA238780237EF24D00F4A60C /* MenuViewController.swift */,
-				FA31ACF52382F52400BA28D7 /* SignIViewController.swift */,
+				FAD8CB12238433AF008BCB89 /* SignInViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -146,7 +152,7 @@
 			);
 			name = NIBMArticle;
 			productName = NIBMArticle;
-			productReference = FA23870C237C32DD00F4A60C /* NIBMArticle.app */;
+			productReference = FAD8CB0823842288008BCB89 /* NIBMArticle.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FA23871F237C32E000F4A60C /* NIBMArticleTests */ = {
@@ -165,7 +171,7 @@
 			);
 			name = NIBMArticleTests;
 			productName = NIBMArticleTests;
-			productReference = FA238720237C32E000F4A60C /* NIBMArticleTests.xctest */;
+			productReference = FAD8CB1123842C12008BCB89 /* NIBMArticleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		FA23872A237C32E000F4A60C /* NIBMArticleUITests */ = {
@@ -184,7 +190,7 @@
 			);
 			name = NIBMArticleUITests;
 			productName = NIBMArticleUITests;
-			productReference = FA23872B237C32E000F4A60C /* NIBMArticleUITests.xctest */;
+			productReference = FAD8CB0A23842288008BCB89 /* NIBMArticleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -237,6 +243,7 @@
 			files = (
 				FA23871A237C32DF00F4A60C /* LaunchScreen.storyboard in Resources */,
 				FA238717237C32DF00F4A60C /* Assets.xcassets in Resources */,
+				FAD8CB1023842B3F008BCB89 /* GoogleService-Info.plist in Resources */,
 				FA238715237C32DD00F4A60C /* Main.storyboard in Resources */,
 				FA238745237C7BF000F4A60C /* Menu.storyboard in Resources */,
 			);
@@ -350,8 +357,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA238712237C32DD00F4A60C /* ViewController.swift in Sources */,
-				FA31ACF62382F52400BA28D7 /* SignIViewController.swift in Sources */,
 				FA31ACF42382F2F400BA28D7 /* ArticleModel.swift in Sources */,
+				FAD8CB13238433AF008BCB89 /* SignInViewController.swift in Sources */,
 				FA31ACF22382F2BE00BA28D7 /* StudentModel.swift in Sources */,
 				FA238781237EF24D00F4A60C /* MenuViewController.swift in Sources */,
 				FA238710237C32DD00F4A60C /* AppDelegate.swift in Sources */,
