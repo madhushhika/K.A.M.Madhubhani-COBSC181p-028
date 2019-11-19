@@ -5,7 +5,7 @@
 //  Created by MacBook on 11/13/19.
 //  Copyright © 2019 NIBM. All rights reserved.
 //
-
+/*
 import UIKit
 
 @UIApplicationMain
@@ -43,4 +43,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
+*/
+import UIKit
+import Firebase
 
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    var window: UIWindow?
+    
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions:
+        [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
+}
