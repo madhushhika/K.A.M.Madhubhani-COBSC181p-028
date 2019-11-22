@@ -9,7 +9,6 @@ target 'NIBMArticle' do
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
   pod 'Nuke','~>7.0'
-
   # Pods for NIBMArticle
 
   target 'NIBMArticleTests' do
@@ -23,4 +22,3 @@ target 'NIBMArticle' do
   end
 
 end
-

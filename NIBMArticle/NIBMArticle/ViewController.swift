@@ -1,11 +1,14 @@
+//
 //  ViewController.swift
-//  Created by Madhushika on 11/13/19.
+//  NIBMArticle
+//
+//  Created by MacBook on 11/21/19.
 //  Copyright © 2019 NIBM. All rights reserved.
-
+//
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
