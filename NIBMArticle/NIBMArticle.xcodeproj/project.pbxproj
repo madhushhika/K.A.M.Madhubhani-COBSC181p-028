@@ -10,6 +10,7 @@
 		00BAD193141022E6AB01EB21 /* Pods_NIBMArticleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2957C8715356074F12E936B /* Pods_NIBMArticleUITests.framework */; };
 		0BF7DDE55F9EC2BAA7B26570 /* Pods_NIBMArticleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06E6427980032E1F6EBC5AB /* Pods_NIBMArticleTests.framework */; };
 		C7A24AB0405728EEFDC0BD63 /* Pods_NIBMArticle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B53EA7C360E3C7FF3959128 /* Pods_NIBMArticle.framework */; };
+		D919F24923885D4D00491101 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D919F24823885D4D00491101 /* MenuViewController.swift */; };
 		FA17D91F238668DB0030CCA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17D91E238668DB0030CCA4 /* AppDelegate.swift */; };
 		FA17D921238668DB0030CCA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA17D920238668DB0030CCA4 /* ViewController.swift */; };
 		FA17D924238668DB0030CCA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA17D922238668DB0030CCA4 /* Main.storyboard */; };
@@ -56,6 +57,7 @@
 		B2957C8715356074F12E936B /* Pods_NIBMArticleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBMArticleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81636F0639C6E6B2B9B9672 /* Pods-NIBMArticleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMArticleTests.debug.xcconfig"; path = "Target Support Files/Pods-NIBMArticleTests/Pods-NIBMArticleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D06E6427980032E1F6EBC5AB /* Pods_NIBMArticleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBMArticleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D919F24823885D4D00491101 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		DC633DE13185AEB56A737FF3 /* Pods-NIBMArticle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBMArticle.debug.xcconfig"; path = "Target Support Files/Pods-NIBMArticle/Pods-NIBMArticle.debug.xcconfig"; sourceTree = "<group>"; };
 		FA17D91B238668DB0030CCA4 /* NIBMArticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIBMArticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA17D91E238668DB0030CCA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				FA23385523870E58008620B4 /* ArticlesViewController.swift */,
 				FA2338572387578B008620B4 /* ResetPasswordViewController.swift */,
 				FA2338742387F8A6008620B4 /* MyProfileViewController.swift */,
+				D919F24823885D4D00491101 /* MenuViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -460,6 +463,7 @@
 				FA2338752387F8A6008620B4 /* MyProfileViewController.swift in Sources */,
 				FA17D95C238691A60030CCA4 /* SignInViewController.swift in Sources */,
 				FA2338542387044E008620B4 /* article.swift in Sources */,
+				D919F24923885D4D00491101 /* MenuViewController.swift in Sources */,
 				FA17D91F238668DB0030CCA4 /* AppDelegate.swift in Sources */,
 				FA2338582387578B008620B4 /* ResetPasswordViewController.swift in Sources */,
 				FA23384D2386CCDA008620B4 /* ArticleModel.swift in Sources */,
